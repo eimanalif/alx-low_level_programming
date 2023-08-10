@@ -3,8 +3,9 @@
 /**
  * main - entry point
  *
- * discription:C programme using print
- * return: always 0 (success)
+ * Discription:C programme using print
+ *
+ * Return: Always 0 (success)
  */
 int main(void)
 {	printf("with proper grammar, but the outcome is a piece of art,\n");
