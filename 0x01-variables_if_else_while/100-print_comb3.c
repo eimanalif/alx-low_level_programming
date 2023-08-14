@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 /**
- *
  * main - entry point
  *
  * Description: 100-print_combo numbers
@@ -12,28 +11,28 @@
 
 int main(void)
 
-	int n1 = 0, n2;
+	int (n = 0, j);
 
-	while (n1 <= 9)
+	while (n <= 9)
 	{
-		n2  = 0;
+		j = 0;
 
-			while (n2 <= 9)
+			while (j <= 9)
 			{
-				if (n1 != n2 && n1 < n2)
+				if (n != j && n < j)
 				{
-					putchar(n1 + 48);
-					putchar(n2 + 48);
+					putchar(n + 48);
+					putchar(j + 48);
 
-					if (n1 + n2 != 17)
+					if (n + j != 17)
 					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
-				n2++;
+				j++;
 			}
-			n1++;
+			n++;
 		}
 		putchar('\n');
 
