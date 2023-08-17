@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- *mul- multiblies a*b
+ *mul- multibly 2 int
  *@a:first int
  *@b: second int
  *Return: addition of the multiplication
