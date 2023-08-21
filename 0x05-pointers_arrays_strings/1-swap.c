@@ -12,9 +12,9 @@
 
 void swap_int(int *a, int *b)
 {
+	int pt;
+
 	pt = *a;
 	*a = *b;
-	pt = *b
-
-	return (0);
+	*b = pt;
 }
