@@ -6,9 +6,9 @@
  *
  *Description: count string lengtH
  *
- *@s: string to check it's length
+ *@s: string parameter input
  *
- *Return: always 0 (success)
+ *Return: length of string
  */
 
 int _strlen(char *s)
@@ -17,7 +17,8 @@ int _strlen(char *s)
 	int count;
 
 	for (count = 0; *s != '\0'; s++)
+	{	
 		++count;
-
+	}
 		return (count);
 }
