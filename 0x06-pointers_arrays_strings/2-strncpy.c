@@ -3,10 +3,13 @@
 /**
  *_strncpy - function that copy
  *
- *Description: function to copy string to another 
+ *Description: function to copy string to another
  *
- *@dest,@src arrays
- *@n, number of byts to copy
+ *@dest: first string
+ *@src: second string
+ *@n: number of letter to copy
+ *
+ *Return: dest
  */
 
 char *_strncpy(char *dest, char *src, int n)
@@ -23,5 +26,6 @@ char *_strncpy(char *dest, char *src, int n)
 		i++;
 	}
 
+
 	return (dest);
-}	 
+}
