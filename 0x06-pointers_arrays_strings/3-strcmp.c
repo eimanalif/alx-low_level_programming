@@ -7,12 +7,12 @@
  *@s1: string 1
  *@s2: string to compare
  *
- *Return: 1 if true , 0 if false
+ *Return: 1 if true 0 if false
  */
 
 int _strcmp(char *s1, char *s2)
 {
-	int i ;
+	int i = 0;
 
 	while (*s1)
 	{
