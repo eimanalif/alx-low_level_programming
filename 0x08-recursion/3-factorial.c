@@ -3,6 +3,7 @@
 /**
  *factorial -  function that returns the factorial of a given number.
  *Description -  function that returns the factorial of a given number.
+ *@n: number to get factorial for
  *Return: -1 if n is negative, 1 if n = 0, else fectorial n
  */
 
