@@ -12,7 +12,6 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
 	int sum = 0;
 
 	if (argc != 3)
@@ -22,11 +21,10 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	if (argc == 3)
-	for (i = 0; i < argc; i++)
 	{
 		sum += atoi(argv[1]) * atoi(argv[2]);
 	}
-	printf("%d\n", sum + 1);
+	printf("%d\n", sum);
 
 	return (0);
 }
