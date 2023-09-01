@@ -8,7 +8,7 @@
  *Description: program that multiplies two numbers., followed by a new line.
  *@argc:count of arrguments
  *@argv:vector of arrgument
- *Return: 0 or 1 for error
+ *Return: 0 or 1 for fail
  */
 int main(int argc, char *argv[])
 {
