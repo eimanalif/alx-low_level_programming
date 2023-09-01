@@ -4,11 +4,11 @@
 
 
 /**
- *main -  program that prints its name, followed by a new line.
- *Description: program that prints its name, followed by a new line.
+ *main -  program that multiplies two numbers., followed by a new line.
+ *Description: program that multiplies two numbers., followed by a new line.
  *@argc:count of arrguments
  *@argv:vector of arrgument
- *Return: 0
+ *Return: 0 or 1 for error
  */
 int main(int argc, char *argv[])
 {
