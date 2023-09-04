@@ -4,12 +4,12 @@
 
 /**
  **create_array -  function that creates an array of chars,
-		and initializes it with a specific char.
- *Definition:function that creates an array of chars,
- *		and initializes it with a specific char
+ *		and initializes it with a specific char.
+ *Definition:function that creates an array of chars
+ *		,and initializes it with a specific char
  *@size:size of array to intialies
  *@c:char to start array with
- *@arr:array of charters
+ *
  *Return: NULL OR 0
  */
 
@@ -31,9 +31,9 @@ char *create_array(unsigned int size, char c)
 
 	for (i = 0; i < size; i++)
 	{
-		arr[i] = c; 
+		arr[i] = c;
 
 	}
 		return (arr);
-	}	
+	}
 }
