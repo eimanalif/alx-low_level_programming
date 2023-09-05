@@ -50,9 +50,9 @@ char *str_concat(char *s1, char *s2)
 	len2 = _strlen(s2);
 	s3 = malloc((len1 + len2 + 1) * sizeof(char));
 
-	if (s3 == 0)
+	if (s3 == NULL)
 	{
-		return (0);
+		return (NULL);
 	}
 	for (n = 0; n <= len1 + len2 ; n++)
 	{
