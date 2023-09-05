@@ -48,11 +48,11 @@ char *str_concat(char *s1, char *s2)
 
 	len1 = _strlen(s1);
 	len2 = _strlen(s2);
-	s3 = malloc((len1 + len2 + 1) * sizeof(char));
+	s3 = malloc((len1 + len2) * sizeof(char) + 1);
 
-	if (s3 == NULL)
+	if (s3 == 0)
 	{
-		return (NULL);
+		return (0);
 	}
 	for (n = 0; n < len1 + len2 ; n++)
 	{
