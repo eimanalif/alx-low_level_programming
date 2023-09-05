@@ -37,13 +37,13 @@ char *str_concat(char *s1, char *s2)
 	int n;
 	int len1, len2;
 
-	if (s1 == (NULL))
+	if (s1 == NULL)
 	{
-		return (NULL);
+		s1 = '\0';
 	}
-	if (s2 == (NULL))
+	if (s2 == NULL)
 	{
-		return (NULL);
+		s2 = '\0';
 	}
 
 	len1 = _strlen(s1);
