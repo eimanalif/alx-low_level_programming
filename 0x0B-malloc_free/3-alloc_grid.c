@@ -11,7 +11,7 @@
  *		a 2 dimensional array of integers.
  *@width:is number columns
  *@height:is numbers of rows
- *return: NULL
+ *Return: NULL or array value
  *
  */
 
