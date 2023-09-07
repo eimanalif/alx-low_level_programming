@@ -1,0 +1,18 @@
+#include"main.h"
+#include<stdlib.h>
+
+
+/**
+ **string_nconcat -  function that concatenates two strings.
+ *Description: function that concatenates two strings.
+ *@s1:first string 
+ *@s2:second string
+ *n:number of baytes
+ *Return:pointer
+ */
+
+char *string_nconcat(char *s1, char *s2, unsigned int n)
+{
+	char *s3;
+	int i;
+
