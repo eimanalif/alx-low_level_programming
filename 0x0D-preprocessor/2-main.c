@@ -1,11 +1,16 @@
 #include<stdio.h>
 
+/**
+ *main - main functioN
+ *Description:print the file name
+ *Return: 0 (succes)
+ */
 
 
 
-int main ()
+int main(void)
 {
-	printf("%s",__FILE__);
+	printf("%s", __FILE__);
 	printf("\n");
-	return(0);
+	return (0);
 }
