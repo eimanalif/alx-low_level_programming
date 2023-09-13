@@ -39,12 +39,10 @@ int op_sub(int a, int b)
  *@b:second number
  *Return:multiplication result
  */
-
 int op_mul(int a, int b)
 {
-	return (a *b);
+	return (a * b);
 }
-
 
 
 
