@@ -33,7 +33,7 @@ int op_sub(int a, int b)
 
 
 /**
- *op_add - multply of a and b
+ *op_mul - multply of a and b
  *Description:multply of two intigers and return the sum
  *@a:first number
  *@b:second number
@@ -47,7 +47,7 @@ int op_mul(int a, int b)
 
 
 /**
- *op_add - division of a and b
+ *op_div - division of a and b
  *Description:division of two intigers and return the sum
  *@a:first number
  *@b:second number
@@ -65,7 +65,7 @@ int op_div(int a, int b)
 
 
 /**
- *op_add - mod of a and b
+ *op_mod - mod of a and b
  *Description:mod of two intigers and return the sum
  *@a:first number
  *@b:second number
