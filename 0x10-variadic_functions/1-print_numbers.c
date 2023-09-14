@@ -32,4 +32,4 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		i ? (separator ? separator : "") : "\n");
 
 	va_end(ap);
-}	
+}
