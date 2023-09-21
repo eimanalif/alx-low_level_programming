@@ -4,7 +4,7 @@
 
 /**
  *_strlen - returns the length of a string
- *s: the string
+ *@s: the string
  *Return:integer length of string
  */
 
@@ -26,6 +26,7 @@ int _strlen(char *s)
 /**
  *print_list -  a function that prints all the elements of a list_t list.
  *Description:  a function that prints all the elements of a list_t list.
+ *@h:pointer to first node
  *Return:number of nodes
  */
 
