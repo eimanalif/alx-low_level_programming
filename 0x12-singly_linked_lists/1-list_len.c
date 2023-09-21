@@ -3,8 +3,10 @@
 
 
 /**
- *list_len - a function that returns the number of elements in a linked list_t list.
- *Description:a function that returns the number of elements in a linked list_t list.
+ *list_len - a function that returns the number
+ *		of elements in a linked list_t list.
+ *Description:a function that returns the number
+ *		of elements in a linked list_t list.
  *@h:pointer to first node
  *Return:the length of list_t
  */
