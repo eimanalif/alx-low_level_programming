@@ -22,10 +22,11 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 
 	if (!head)
 		return (NULL);
-	for (n = 0; n < index; n++)
-	{
-		node = head;
-		node = node->next;
-	}
-	return (node);
+
+	node = head;
+
+	for (n = 0; node && n < index; node = node->next, n++)
+
+		;
+		return (node);
 }
