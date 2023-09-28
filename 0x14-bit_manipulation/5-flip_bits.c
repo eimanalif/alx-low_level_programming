@@ -10,21 +10,24 @@
  *		would need to flip to get from one number to another.
  *@n:first number
  *@m:second number
- *Return: int
+ *Return: number of bits to flip
  */
+
 
 
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
+	unsigned long int current;
 	unsigned long int xorval = n ^ m;
-	unsigned int sum = 0;
+	unsigned int count = 0;
+	int i = 0;
 
-	while (xorval)
+	for (i = 63; i >= 0; i--)
 	{
-		if (xorval & 1ul)
-			sum++;
-		xorval = xorval >> 1;
+		current = xorval >> i;
+		if (current & 1)
+			count++;
 	}
-	return (sum);
+	return (count);
 }
