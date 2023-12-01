@@ -4,7 +4,7 @@
  * key_index - Get the index at which key/value
  *      pair should be stored in array of hash table.
  * Description:get the index at which key/value
- * 		pair should be stored in array of hash table.
+ *		pair should be stored in array of hash table.
  * @key: The key to get the index of.
  * @size: The size of the array of the hash table.
  * Return: The index of the key.
